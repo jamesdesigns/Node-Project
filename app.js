@@ -1,5 +1,7 @@
+// CRUD - create. read. update. delete
 const express = require('express')
 const bodyParser = require('body-parser')
+const mongoose = require('mongoose')
 
 const product = require('./routes/product.route')
 
@@ -13,4 +15,3 @@ app.listen(port, () => {
     console.log(`Server is up and running on ${port}`)
 })
 
-// CRUD - create. read. update. delete
